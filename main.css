@@ -158,60 +158,6 @@ div {
     margin: 0;
 }
 
-.projects-left {
-    display: block;
-    background-color: ffd582;
-    text-align: left;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 50px;
-    height: 375px;
-    width: 100% -50px;
-    min-width: 1000px;
-}
-
-.projects-right {
-    display: block;
-    background-color: 606060;
-    text-align: right;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 50px;
-    height: 375px;
-    width: 100% -50px;
-    min-width: 1000px;
-}
-
-.projects-text-left {
-    float: right;
-    display: inline-block;
-    background-color: white;
-    text-align: left;
-    margin: 0;
-    padding: 50px;
-    height: 275px;
-    width: 400px;
-}
-
-.projects-text-right {
-    float: left;
-    display: inline-block;
-    background-color: white;
-    text-align: left;
-    margin: 0;
-    padding: 50px;
-    height: 275px;
-    width: 400px;
-}
-
-.tutorials {
-    display: inline-block;
-    text-align: left;
-    margin: 0;
-    padding: 3% 10% 10% 10%;
-    line-height: 25px;
-}
-
 .box {
     display: inline-block;
     background-image: url("images/background.jpg");
@@ -229,15 +175,15 @@ div {
 }
 
 l a:link {
-    color: 4 b5b7f;
+    color: #4b5b7f;
 }
 
 l a:visited {
-    color: 4 b5b7f;
+    color: #4b5b7f;
 }
 
 l a:hover {
-    color: 828282;
+    color: #828282;
 }
 
 table {
