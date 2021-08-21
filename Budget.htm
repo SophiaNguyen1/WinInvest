@@ -31,13 +31,59 @@
                 margin: 10px;
                 border-radius: 20px;
             }
+
+            .list-body {
+                width: 50%;
+                /*font-family: */
+                text-align: left;
+                padding: 15px;
+                margin: 10px;
+                border-radius: 20px;
+            }
         </style>
-        <center>
+        <div style="display:flex; flex-direction:column">
             <div class="list-title">Monthly Income</div>
             <div class="list-body">
-
+                <div style="display:flex; flex-direction:row">
+                    <div>
+                        <div>Job</div>
+                        <div>Loans</div>
+                        <div>Other</div>
+                    </div>
+                    <div>
+                        <input type="text" id="job" name="job">
+                        <input type="text" id="loans" name="loans">
+                        <input type="text" id="other" name="other">
+                    </div>
+                </div>
             </div>
-        </center>
+            <br/>
+            <div class="list-title">Monthly Expenses</div>
+            <div class="list-body">
+                <div style="display:flex; flex-direction:row">
+                    <div>
+                        <div>Housing</div>
+                        <div>Utilities</div>
+                        <div>Electronics</div>
+                        <div>Groceries</div>
+                        <div>Giving</div>
+                        <div>Childcare</div>
+                        <div>Petcare</div>
+                        <div>Car Payments</div>
+                    </div>
+                    <div>
+                        <input type="text" id="housing" name="housing">
+                        <input type="text" id="utilities" name="utilities">
+                        <input type="text" id="electronics" name="electronics">
+                        <input type="text" id="groceries" name="groceries">
+                        <input type="text" id="giving" name="giving">
+                        <input type="text" id="childcare" name="childcare">
+                        <input type="text" id="petcare" name="petcare">
+                        <input type="text" id="car" name="car">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="report-wrapper" style="width:33%">
         <p>a</p>
