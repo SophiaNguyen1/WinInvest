@@ -215,7 +215,7 @@ div {
 .box {
     display: inline-block;
     background-image: url("images/background.jpg");
-    padding: 25px;
+    padding: 40px;
     margin: 0;
 }
 
