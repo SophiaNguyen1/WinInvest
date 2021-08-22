@@ -47,6 +47,7 @@ p {
 .input-label, input{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
+    margin-left: 10px;
 }
 
 .input-label{
