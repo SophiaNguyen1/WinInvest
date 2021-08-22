@@ -58,7 +58,8 @@ input{
     font-size: 16px;
     line-height: 1.4;
 	width: 70%;
-	margin: auto
+	margin: auto;
+	justify-content: space-between;
 }
 
 .report-wrapper {
